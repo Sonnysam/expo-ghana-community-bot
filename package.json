@@ -1,0 +1,22 @@
+{
+  "name": "wwebjs-bot",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "node-cron": "^3.0.3",
+    "nodemon": "^3.1.4",
+    "puppeteer": "^23.4.1",
+    "qrcode-terminal": "^0.12.0",
+    "random-facts": "^1.0.6",
+    "random-quote-generator": "^1.2.2",
+    "random-verse": "^1.0.1",
+    "random-words": "^2.0.1",
+    "weather-js": "^2.0.0",
+    "whatsapp-web.js": "^1.26.0"
+  }
+}

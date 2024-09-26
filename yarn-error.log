@@ -1,0 +1,47 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Sony\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js
+
+PATH: 
+  C:\Python311\Scripts\;C:\Python311\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\Git LFS;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;C:\Users\Sony\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\Sony\AppData\Local\Microsoft\WindowsApps;C:\Users\Sony\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Sony\AppData\Local\Programs\oh-my-posh\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.1.2\bin;;C:\Users\Sony\AppData\Roaming\npm;C:\Users\Sony\.dotnet\tools;C:\Users\Sony\AppData\Roaming\nvm;C:\Program Files\nodejs
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  20.10.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND registry.yarnpkg.com
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26)
+
+npm manifest: 
+  {
+    "name": "wwebjs-bot",
+    "version": "1.0.0",
+    "main": "main.js",
+    "scripts": {
+      "start": "node ."
+    },
+    "license": "MIT",
+    "dependencies": {
+      "axios": "^1.7.3",
+      "nodemon": "^3.1.4",
+      "puppeteer": "^23.0.2",
+      "qrcode-terminal": "^0.12.0",
+      "random-facts": "^1.0.6",
+      "random-quote-generator": "^1.2.2",
+      "random-verse": "^1.0.1",
+      "random-words": "^2.0.1",
+      "weather-js": "^2.0.0",
+      "whatsapp-web.js": "^1.25.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
