@@ -145,3 +145,5 @@ const commandHandlers = {
     }
   },
 };
+
+client.initialize();
